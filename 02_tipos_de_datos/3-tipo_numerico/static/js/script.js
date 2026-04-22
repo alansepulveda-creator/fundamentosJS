@@ -6,7 +6,7 @@ console.log("conexion exitosa con js")
 
 let edad = 31;
 let temperatura = -5;
-let precio = 19990;
+let precios = 19990;
 let precio = 3.1416;
 let descuento = 0.25;
 
@@ -49,3 +49,16 @@ console.log("el sueldo base es:" +sueldo)
 //7 - redondeo de numeros
 console.log("redondeando 4.6: " + Math.round(4.6)); //5
 console.log("redondeando 4.6: " + Math.floor(4.6)); //4
+
+//8 - Números aleatorios
+let aleatorio = Math.random(); // entre 0 y 1
+let dado = Math.floor(Math.random()*6) + 1; //entre 1 y 6
+console.log(`tirar dados: ${dado}`)
+
+//9 - Comparaciones númericas
+let a = 10;
+let b = 5;
+console.log(a > b); //true
+console.log(a < b); //false
+console.log(a === 10); // === estricta igualdad
+console.log(b === 3); //false
