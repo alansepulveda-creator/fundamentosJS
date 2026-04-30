@@ -167,3 +167,84 @@ let precio = 50000
 let descuento = 0.1
 alert(`El producto ${producto} tiene un precio final de $${precio - (precio * descuento)}`)
 }
+
+// Ejercicio 16: Boleta de compra con clasificación de cliente
+
+// Crear una función que almacene el nombre de un cliente, el nombre de un producto y el precio. Luego:
+// Convertir el nombre del cliente a mayúsculas
+// Determinar el tipo de cliente según el precio:
+// Mayor o igual a 100.000 → Cliente Premium (20% descuento)
+// Mayor o igual a 50.000 → Cliente Frecuente (10% descuento)
+// Menor a 50.000 → Cliente Normal (sin descuento)
+
+
+
+// Mostrar:
+// Nombre del cliente en mayúsculas
+// Producto en minúsculas
+// Precio original
+// Precio final
+// Tipo de cliente
+
+function ejercicio16() {
+let nombre = "picolo"
+let producto1 ="pepinillo"  
+let precio$ = 300000
+if(precio$ >= 100000){
+alert(`el Cliente ${nombre.toUpperCase()} es un Cliente Premium por lo que el valor original de su ${producto1.toLowerCase()}: $${precio$} disminuiria a $${precio$ - (precio$ * 0.2)}`)
+}
+else if(precio$ >= 50000 & precio$ < 100000){
+alert(`el Cliente ${nombre.toUpperCase()} es un Cliente Frecuente por lo que el valor de su ${producto1.toLowerCase()}: $${precio$} disminuiria a $${precio$ - (precio$ * 0.1)}`)
+}
+else{
+alert(`el Cliente ${nombre.toUpperCase()} es un Cliente normal por lo que el valor de su ${producto1.toLowerCase()} con valor de $${precio$} no tendra descuento quedandose como $${precio$}`)
+}
+}
+
+
+// Ejercicio 17: Análisis de frase con puntuación
+// Crear una función que almacene una frase y un puntaje numérico. Luego:
+// Convertir la frase a minúsculas
+// Contar la cantidad de caracteres
+// Clasificar el puntaje:
+// 90 o más → Excelente
+// 70 o más → Bueno
+// Menor a 70 → Insuficiente
+
+// Mostrar:
+// Frase transformada
+// Largo de la frase
+// Puntaje
+// Clasificación
+
+function ejercicio17() {
+let frase = ""
+let puntaje = ""
+
+}
+
+
+// Ejercicio 18: Evaluación de tres notas con estado final
+
+// Crear una función que almacene el nombre de un estudiante y tres notas. Luego:
+
+// Calcular el promedio
+// Convertir el nombre a mayúsculas
+// Determinar el estado:
+// Promedio ≥ 6.0 → Destacado
+// Promedio ≥ 4.0 → Aprobado
+// Promedio < 4.0 → Reprobado
+
+// Además:
+// Contar la cantidad de caracteres del nombre
+
+// Mostrar:
+// Nombre en mayúsculas
+// Cantidad de caracteres del nombre
+// Promedio
+// Estado final
+
+function ejercicio18() {
+    
+}
+
