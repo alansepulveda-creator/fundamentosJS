@@ -245,6 +245,107 @@ let puntaje = ""
 // Estado final
 
 function ejercicio18() {
-    
+let nombre = "Papelucho"
+let n1 = 2.9
+let n2 = 7.0
+let n3 = 6.7
+let promedion = (n1 + n2 + n3) / 3
+let nombremayusq = nombre.toUpperCase()
+if (promedion >= 6){
+alert(`El estudiante ${nombremayusq} está destacado.
+\nPromedio: ${promedion}.
+\nLargo nombre: ${nombre.length}`)
+}
+else if (promedion >= 4){
+alert(`El estudiante ${nombremayusq} está aprobado.
+\nPromedio: ${promedion}
+\nLargo nombre: ${nombre.length}`)
+}
+else{
+alert(`El estudiante ${nombremayusq} está reprobado.
+\nPromedio: ${promedion}
+\nLargo nombre: ${nombre.length}`)
+}
 }
 
+// Ejercicio 19: Clasificación de desempeño con más niveles
+// Crear una función que almacene el nombre de un estudiante y su promedio final. Luego:
+
+// Convertir el nombre a mayúsculas
+// Clasificar el rendimiento según:
+// ≥ 6.5 → Sobresaliente
+// ≥ 6.0 → Muy buen rendimiento
+// ≥ 5.0 → Buen rendimiento
+// ≥ 4.0 → Suficiente
+// < 4.0 → Insuficiente
+
+// Además:
+
+// Mostrar la cantidad de caracteres del nombre
+
+function ejercicio19() {
+let name = ""
+let numeros1 = 4.1
+let numeros2 = 6.7
+let numeros3 = 6.9
+let promedio = (numeros1 + numeros2 + numeros3) / 3
+if (promedio >= 6.5){
+alert(``)
+}
+}
+
+// Ejercicio 20: Clasificación de producto con múltiples rangos de precio
+// Crear una función que almacene el nombre de un producto y su precio. Luego:
+
+// Convertir el producto a minúsculas
+// Clasificar el precio:
+// ≥ 200.000 → Producto de lujo
+// ≥ 100.000 → Producto premium
+// ≥ 50.000 → Producto estándar
+// ≥ 20.000 → Producto económico
+// < 20.000 → Producto básico
+
+// Además:
+
+// Aplicar descuento:
+// Si es ≥ 100.000 → 15%
+// Si es ≥ 50.000 → 10%
+// Si es menor → sin descuento
+
+// Mostrar:
+
+// Nombre transformado
+// Largo del nombre del producto
+// Precio original
+// Precio final
+// Clasificación
+
+
+
+
+
+
+
+// Ejercicio 21: Evaluación de frase y puntaje con múltiples condiciones
+// Crear una función que almacene una frase y un puntaje. Luego:
+
+// Convertir la frase a mayúsculas
+// Contar su largo
+// Clasificar el puntaje:
+// ≥ 90 → Excelente
+// ≥ 80 → Muy bueno
+// ≥ 70 → Bueno
+// ≥ 60 → Regular
+// < 60 → Deficiente
+
+// Además:
+
+// Clasificar la frase por tamaño:
+
+// 30 → Muy larga
+
+// 20 → Larga
+
+// 10 → Mediana
+
+// ≤ 10 → Corta
